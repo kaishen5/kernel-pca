@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html class='pc chrome win psc_dir-ltr psc_form-xlarge' dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2015, Oracle and/or its affiliates. All rights reserved. -->
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name = "viewport" content = "width=device-width,user-scalable=yes,initial-scale=1.0,minimum-scale=1.0">
+<script language='JavaScript'>
+var  totalTimeoutMilliseconds = 3600000; 
+var  warningTimeoutMilliseconds = 3300000; 
+var timeOutURL = 'https://portalsp.acs.ncsu.edu/psp/MP91PRD/EMPLOYEE/NCHCM/?cmd=expire';
+var timeoutWarningPageURL = 'https://hc92prd.acs.ncsu.edu/psc/HC92PRD/EMPLOYEE/NCHCM/s/WEBLIB_TIMEOUT.PT_TIMEOUTWARNING.FieldFormula.IScript_TIMEOUTWARNING';
+var sRCRequestURL = 'https://hc92prd.acs.ncsu.edu/psc/HC92PRD/EMPLOYEE/NCHCM/s/WEBLIB_PTRC.ISCRIPT1.FieldFormula.IScript_RC_REQUEST';
+</script> 
+
+<link rel='apple-touch-icon' href='/cs/HC92PRD/cache85515/LOGO_FAVICON_3.ico' />
+<link rel='icon' href='/cs/HC92PRD/cache85515/LOGO_FAVICON_3.ico' />
+<link id=PSSTYLEDEF_FMODE_2_css rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PSSTYLEDEF_FMODE_2.css' />
+<link rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PTS_NUI_FFSTYLE_1.css' />
+<link rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PTNUI_LIST_CSS_1.css' />
+<link rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PY_FLU_1.css' />
+<link rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PTNUI_PINTO_CSS_1.css' />
+<link rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PTNUI_NAVBAR_CSS_1.css' />
+<link rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PS_CHART_DVT_NUI_1.css' />
+<title>Pay</title>
+<script LANGUAGE='JavaScript'>
+try {
+document.domain = "acs.ncsu.edu";
+}
+catch(err) {;}
+</script>
+<script language='JavaScript'>
+var winName='win0';
+var winParent = null;
+var modalID = null;
+var modalZoomName = null;
+var baseKey_win0 = "\x1b";
+var altKey_win0 = "0J5678\xbc\xbe\xbf\xde";
+var ctrlKey_win0 = "JK";
+var saveWarningKeys_win0 = "";
+var firstFocusID = null;
+var sMDWrapperStyle='', sMDSide1Style='', sMDSide2Style='', sMDHeaderStyle='', sMDFooterStyle='';
+var isNewSaveWarn = true;
+var bAccessibility_win0 =false;
+var bFMode =true;
+var bDoModal_win0 = false;
+var bJSModal_win0 = false;
+var bPromptPage_win0 = false;
+var bTabOverTB_win0 = false;
+var bTabOverPg_win0 = false;
+var bTabOverNonPS_win0 = false;
+var strCurrUrl='https://portalsp.acs.ncsu.edu/psp/MP91PRD/EMPLOYEE/NCHCM/c/PY_EMPLOYEE_FL.PY_IC_PAY_INQ_FLU.GBL?PAGE=PY_IC_PI_LIST_FLU';
+var strReqURL='';
+var bIncInNavigation='T';
+var szPinCrefID='HC_PY_IC_PAY_INQ_FLU';
+var szPinCrefReg='T';
+var szPinCrefLabel='Pay Check';
+var szCrefID='HC_PY_IC_PAY_INQ_FLU';
+var szCrefReged='T';
+var szCrefVisible='T';
+var szCrefLabel='Pay Check';
+var szCrefUsageType='TARG';
+var localNodes = ['HC920PRD', 'HRMS', 'NCHCM', 'PSFT_HR'];
+bGenDomInfo = false;
+var szCalendarType = 'G';
+var bMenuSrchPage = false;
+var bGuidedAG = false;
+var bWSRP=0;var szMenuSrchText = "-999999-";
+var disablePNSubscriptions=1;var modalBackUrl = '/cs/HC92PRD/cache85515/PT_NUI_BACK_SMALL_IMG_1.svg';
+var modalBackAlt = 'Back';
+var sPopupTitle = 'Popup window';
+var modalCloseUrl = '/cs/HC92PRD/cache85515/PT_MODAL_CLOSE_NUI_1.svg';
+var modalCloseAlt = 'Close';
+var modalResizeUrl= '/cs/HC92PRD/cache85515/PT_RESIZE_IMG_1.gif';
+var modalResizeAlt = 'Drag to resize';
+var modalMoveAlt = 'Drag to move';
+</script>
+<script language='JavaScript'>
+var scrollFieldList = [['PY_IC_PI_LST_VW$SORTLIST$0',1, 0, 0, 0,0, 1,0,0, 1],['win0divPY_IC_PI_LST_VW$grid$0',1, 0, 0, 0,0, 1,0,0, 0],['win0hdrdivPT_ACTION_MENUgrp',1, 0, 0, 0,0, 1,0,0, 1]];
+</script>
+<script language='JavaScript'>
+var PFieldList_win0 = [['DESCR',7]];
+</script>
+<script LANGUAGE='JavaScript'>
+try {
+document.domain = "acs.ncsu.edu";
+}
+catch(err) {;}
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_COMMON_FMODE_MIN_5.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_AJAX_NET_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_SAVEWARNINGSCRIPT_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_PAGESCRIPT_win0_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_EDITSCRIPT_win0_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_PAGESCRIPT_FMODE_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_TYPEAHEAD_win0_MIN_1.js'>
+</script>
+<script language='JavaScript'>
+DoUrlNUI();
+var nResubmit=0;
+var nLastAction=0;
+var loader=null;
+if (typeof(bCleanHtml) == 'undefined')
+	var bCleanHtml = false;
+setupTimeout2();
+var postUrl_win0='https://hc92prd.acs.ncsu.edu/psc/HC92PRD/EMPLOYEE/NCHCM/c/PY_EMPLOYEE_FL.PY_IC_PAY_INQ_FLU.GBL';
+function aAction_win0(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)
+{
+setupTimeout2();
+if ((id != '#ICSave'))
+processing_win0(1,3000);
+aAction0_win0(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType);
+}
+function submitAction_win0(form, id, event, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)
+{
+setupTimeout2();
+if (!ptCommonObj2.isICQryDownload(form, id))
+ { processing_win0(1,3000); }
+preSubmitProcess_win0(form, id);
+var spellcheckpos = id.indexOf('$spellcheck');
+if ((spellcheckpos != -1) && (id.indexOf('#KEYA5') != -1))
+	form.ICAction.value = id.substring(0,spellcheckpos);
+else 
+	form.ICAction.value=id;
+var actionName = form.ICAction.value;
+form.ICXPos.value=ptCommonObj2.getScrollX();
+form.ICYPos.value=ptCommonObj2.getScrollY();
+bcUpdater.storeBcDomData();
+if ((typeof(bAutoSave) != 'undefined') && bAutoSave)
+	form.ICAutoSave.value = '1';
+if (!ptCommonObj2.isAJAXReq(form, id) && !ptCommonObj2.isPromptReq(id)){
+if (nLastAction == 1 && nResubmit > 0) return;
+form.ICResubmit.value=nResubmit;
+form.submit();
+if (!ptCommonObj2.isICQryDownload(form, id))
+	nResubmit++;
+}
+else if (ptCommonObj2.isPromptReq(id))
+	pAction_win0(form, id, arguments[2]);
+else
+	aAction_win0(form, actionName, null, true, false, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType);
+cancelBubble(event);
+}
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PTMAF_PUSH_JS_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PTNUI_PINTO_JS_win0_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PT_CHART_LOAD_win0_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PS_CHART_DVT_JS_MIN_1.js'>
+</script>
+<script language='javascript'>
+var pt_calHeadstyle=" class='PTCALHEAD' "
+var pt_calWeekHeadstyle=" class='PTCALWEEKHEAD' "
+function dateitemrefs()
+{
+this.pt_dateheader = "/cs/HC92PRD/cache85515/PT_PORTAL_IC_CLOSE_SD_CSS_1.gif";
+this.pt_datering = "/cs/HC92PRD/cache85515/PT_CURRENT_DATE_SD_CSS_1.gif";
+this.pt_datesel = "/cs/HC92PRD/cache85515/PT_SELECTED_DATE_SD_CSS_1.gif";
+this.pt_nextmonth = "/cs/HC92PRD/cache85515/PT_RIGHT_SCROLL_SD_CSS_1.gif";
+this.pt_prevmonth= "/cs/HC92PRD/cache85515/PT_LEFT_SCROLL_SD_CSS_1.gif";
+this.pt_daystitle_hijri = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_S6_1.GIF";
+this.pt_daystitle_thai = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_S0_1.GIF";
+this.pt_daystitle_s0 = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_S0_1.GIF";
+this.pt_daystitle_m1 = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_M1_1.GIF";
+this.pt_daystitle_t2 = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_T2_1.GIF";
+this.pt_daystitle_w3 = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_W3_1.GIF";
+this.pt_daystitle_t4 = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_T4_1.GIF";
+this.pt_daystitle_f5 = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_F5_1.gif";
+this.pt_daystitle_s6 = "/cs/HC92PRD/cache85515/PT_DATE_TITLE_S6_1.GIF";
+}
+ 
+function LoadCalendar()
+{
+var dateitems = new dateitemrefs();
+loadImages(dateitems);
+}
+function DatePrompt0_win0(dtfield,promptfield,yrfmt,bsubmit)
+{
+setupTimeout2();
+openDate_win0(dtfield, promptfield, "YMD/"+yrfmt,bsubmit,"G",0);
+}
+</script>
+<link id=PTRC_FFSTYLE_1_css rel='stylesheet' type='text/css' href='/cs/HC92PRD/cache85515/PTRC_FFSTYLE_1.css' />
+<script language='JavaScript' type='text/javascript' src='/cs/HC92PRD/cache85515/PTNUI_MENU_JS_MIN_1.js'>
+</script>
+<script language='JavaScript'  ptdefer='defer'>
+var bInModal = false;
+function onLoadExt_win0() {
+modalZoomName = null;
+var oWin=window;
+var oDoc=document;
+ptTAObj_win0.init(oWin,oDoc,oDoc.win0,'/cs/HC92PRD/cache85515/PT_SRT2UP_SEL_1.gif','/cs/HC92PRD/cache85515/PT_SRT2DN_SEL_1.gif','/cs/HC92PRD/cache85515/PT_PORTAL_IC_CLOSE_1.gif',500);
+var pt_pageinfo = document.getElementById('pt_pageinfo');
+var pt_wrapper = document.getElementById('PT_WRAPPER');
+if (pt_wrapper) {pt_wrapper.setAttribute('class','ps_wrapper  pst_side2-hidden pst_panel-mode ');
+addClass(pt_wrapper,sMDWrapperStyle);
+addClass(pt_wrapper,'pst_side1-disabled');
+removeClass(pt_wrapper,'pst_side2-disabled');
+}var objPanelControlStyle = document.getElementById('ICPanelControlStyle');
+if (objPanelControlStyle) objPanelControlStyle.value='pst_side2-hidden pst_panel-mode ';
+var objSide2Wrapper = document.getElementById('PT_SIDE2');
+if (objSide2Wrapper) {objSide2Wrapper.setAttribute('class','pst_panel-side2 pst_panel-systemrc ');
+addClass(objSide2Wrapper,sMDSide2Style);
+}if (pt_pageinfo) {
+pt_pageinfo.setAttribute('Page', 'PY_IC_PI_LIST_FLU');
+pt_pageinfo.setAttribute('Component', 'PY_IC_PAY_INQ_FLU');
+pt_pageinfo.setAttribute('Menu', 'PY_EMPLOYEE_FL');
+pt_pageinfo.setAttribute('Mode', 'FLUID');
+}
+initWorkers('/cs/HC92PRD/cache85515/PT_WORKER_MIN_1.js',5);
+g_bAccessibilityMode=false;
+var actn='';
+setKeyEventHandler_win0();setMouseEventHandler();
+ptEvent.add(window,'scroll',positionWAIT_win0);objToBeFocus = null;
+if (typeof oWin == 'undefined') setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+ else
+ oWin.setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+try{
+portalContextNodeURI = 'https://portalsp.acs.ncsu.edu/psc/MP91PRD/EMPLOYEE/EMPL';
+SearchPageClose();
+ptSearchObj.GetSearchGroupsFromPortal('PTS_SRCHGROUPS_GLB', 'https://portalsp.acs.ncsu.edu/psc/MP91PRD/EMPLOYEE/EMPL', '', 'win0');
+}catch(e) { if(typeof String !="undefined") alert('custom javascript error '+e)}
+if (top.window.isFModeLayout() && (typeof top.window.initHelp == 'function')) top.window.initHelp();
+postUrl_win0='https://hc92prd.acs.ncsu.edu/psc/HC92PRD/EMPLOYEE/NCHCM/c/PY_EMPLOYEE_FL.PY_IC_PAY_INQ_FLU.GBL';
+initScrolls0(false);
+setFocus_win0('DERIVED_PY_FLU_FILTER_PB',-1);
+loadGrouplets('/cs/HC92PRD/cache85515/PT_WORKER_MIN_1.js',5);
+ptLoadingStatus_empty(0);
+setupTimeout2();
+processing_win0(0,3000);
+ptConsole2.enable();
+}
+try{ptEvent.load(onLoadExt_win0);}catch(e){}
+</script></head>
+<body tabindex='-1' >
+<DIV id='pt_envinfo' devicetype='pc' Browser='CHROME/61.0/WIN10' ToolsRel='8.55.15' ></DIV>
+<DIV id='pt_pageinfo' Page='PY_IC_PI_LIST_FLU' Component='PY_IC_PAY_INQ_FLU' Menu='PY_EMPLOYEE_FL' Mode='%Mode'><!----></DIV>
+<form id='PY_IC_PAY_INQ_FLU' name='win0' method='post' action="https://hc92prd.acs.ncsu.edu/psc/HC92PRD/EMPLOYEE/NCHCM/c/PY_EMPLOYEE_FL.PY_IC_PAY_INQ_FLU.GBL"  autocomplete='off' class='PSForm'>
+<DIV class='ps_box-toolshiddens'  id='win0divPSTOOLSHIDDENS'><div class='ps_modalmask_cover psc_hidden' id='pt_modalMaskCover'>&nbsp;</div><div class='ps_modalmask psc_hidden' id='pt_modalMask'>&nbsp;</div><div id='pt_modals' class='ps_modal_controller'><div id='ptModalShadow' class='popupDragFrame' style='cursor:nw-resize'>&nbsp;</div></div>
+<div class='ps_ajax_console psc_hidden' id='pt_console'></div><div class='ps_typeahead psc_hidden' id='pt_typeahead0'><div id='pt_typeahead' class='ps_box-typeahead'>&nbsp;</div></div><div class='ps_box-announce ps_alert-normal' aria-live='polite' aria-hidden='true' id='pt_liveregion'></div>
+<div class='ps_box-group psc_layout psc_skipnav_container psc_hidden' id='PT_SKIPNAV_CONT'>
+<div class='ps_box-link psc_skipnav'><span class='ps-link-wrapper'><a class='ps-link' id='PT_SKIPNAV' onclick='javascript:cancelBubble(event);' href='javascript:SetMainConentFocus();' onblur='javascript:SetMainConentFocus(false);'>Skip to Main Content</a></span></div>
+</div>
+<div class='psc_processing psc_hidden' id='WAIT_win0'><img id='processing'  src='/cs/HC92PRD/cache85515/PT_PROCESSING_FMODE_1.gif' alt='Processing... please wait' title='Processing... please wait' /></div>
+ <div style='visibility:hidden; display:none; position:absolute;left:-10000px;top:auto; width:1px; height:1px;overflow:hidden;' aria-relevant='text additions' aria-live='assertive' aria-atomic='true' class='psc_processing psc_hidden' id='Delayed_win0'>&nbsp;</div><div class='psc_saved psc_hidden' id='SAVED_win0' ><div><div id='saveWait_win0' ><img src='/cs/HC92PRD/cache85515/PT_LOADER_1.gif' width='24' height='24' alt=''/></div><div class='ps_saved_text'><span id='ptStatusText_win0'>&nbsp;</span></div></div></div><DIV class='x'  id='win0divPSHIDDENFIELDS' style='display:none'><input type='hidden' name='ICType' id='ICType' value='Panel' />
+<input type='hidden' name='ICElementNum' id='ICElementNum' value='0' />
+<input type='hidden' name='ICStateNum' id='ICStateNum' value='13' />
+<input type='hidden' name='ICAction' id='ICAction' value='None' />
+<input type='hidden' name='ICModelCancel' id='ICModelCancel' value='0' />
+<input type='hidden' name='ICXPos' id='ICXPos' value='0' />
+<input type='hidden' name='ICYPos' id='ICYPos' value='0' />
+<input type='hidden' name='ResponsetoDiffFrame' id='ResponsetoDiffFrame' value='-1' />
+<input type='hidden' name='TargetFrameName' id='TargetFrameName' value='None' />
+<input type='hidden' name='FacetPath' id='FacetPath' value='None' />
+<input type='hidden' name='ICFocus' id='ICFocus' value='' />
+<input type='hidden' name='ICSaveWarningFilter' id='ICSaveWarningFilter' value='0' />
+<input type='hidden' name='ICChanged' id='ICChanged' value='0' />
+<input type='hidden' name='ICAutoSave' id='ICAutoSave' value='0' />
+<input type='hidden' name='ICResubmit' id='ICResubmit' value='0' />
+<input type='hidden' name='ICSID' id='ICSID' value='lp82Ijsm5Srmws7wBQOu9F6/7aEdpge0fe2SRor+beI=' />
+<input type='hidden' name='ICActionPrompt' id='ICActionPrompt' value='false' />
+<input type='hidden' name='ICTypeAheadID' id='ICTypeAheadID' value='' />
+<input type='hidden' name='ICBcDomData' id='ICBcDomData' value='' />
+<input type='hidden' name='ICDNDSrc' id='ICDNDSrc' value='' />
+<input type='hidden' name='ICPanelHelpUrl' id='ICPanelHelpUrl' value='' />
+<input type='hidden' name='ICPanelName' id='ICPanelName' value='' />
+<input type='hidden' name='ICPanelControlStyle' id='ICPanelControlStyle' value='' />
+<input type='hidden' name='ICFind' id='ICFind' value='' />
+<input type='hidden' name='ICAddCount' id='ICAddCount' value='' />
+<input type='hidden' name='ICAPPCLSDATA' id='ICAPPCLSDATA' value='' />
+</DIV>
+</DIV>
+<a class='ps-anchor' id='ICFirstAnchor_win0'></a>
+<DIV id='PT_WRAPPER' class='ps_wrapper'>
+<DIV class='ps_header' id='PT_HEADER' >
+<DIV class='ps_header_panel' id='PT_HEADER_PANEL'>
+<DIV class='ps_pspagecontainer_hdr' id='win0divPSPAGECONTAINER_HDR'>
+<div      class='ps_box-group psc_layout' id='win0hdrdivPTLAYOUT_HEADER_GROUPBOX0'><div     role="banner"  class=' ps_header_bar' id='win0hdrdivPTLAYOUT_HEADER_GROUPBOX1'><div      class=' ps_back_cont' id='win0hdrdivPT_NAV_CONT'><div      class=' ps_system_cont' id='win0hdrdivPTLAYOUT_HEADER_GROUPBOX4'><DIV    class='ps_box-button ps_button_backnav psc_toolaction-back psc_header-all' id='win0hdrdivPT_WORK_PT_BUTTON_BACK'><span  class='ps-button-wrapper' title='Back' ><a id='PT_WORK_PT_BUTTON_BACK'  class='ps-button'   role='button' role='button' role='button' href="javascript:DoBack('win0')" onclick='javascript:cancelBubble(event);' ><img src='/cs/HC92PRD/cache85515/PT_NUI_BACK_PRIM_IMG_3.SVG' name='PT_WORK_PT_BUTTON_BACK$IMG' class='ps-img'  alt=''/><span class='ps-text'>Back</span></a></span>
+</DIV><div      class='ps_box-group psc_layout' id='win0hdrdiv$ICField69'></div></div><div      class=' ps_custom_cont' id='win0hdrdivPT_CUSTOM_LEFT'></div></div><div      class=' ps_pagetitle_cont' id='win0hdrdivPT_TITLE_CONT'><div     class=' ps_system_cont' id='win0hdrdivPT_PAGETITLE'><h1 id ='PT_PAGETITLE' class='ps_pagetitle' ><span class='ps-text' id='PT_PAGETITLElbl'>Pay</span></h1></div><div      class=' ps_custom_cont' id='win0hdrdivPT_CUSTOM_MIDDLE'></div></div><div      class=' ps_actions_cont' id='win0hdrdivPT_ACTION_CONT'><div      class=' ps_custom_cont ' id='win0hdrdivPT_CUSTOM_RIGHT'></div><div      class=' ps_system_cont' id='win0hdrdivPTLAYOUT_HEADER_GROUPBOX6'><DIV    class='ps_box-button psc_image_only psc_toolaction-home ps_header_button ps_header-home psc_hide-BP2' id='win0hdrdivPT_HOME'><span  class='ps-button-wrapper' title='Home' ><a id='PT_HOME'  class='ps-button'   role='button' role='button' role='button' href="javascript:DoHome('https://portalsp.acs.ncsu.edu/psc/MP91PRD/EMPLOYEE/EMPL/s/WEBLIB_PTBR.ISCRIPT1.FieldFormula.IScript_StartPage')" onclick='javascript:cancelBubble(event);' ><img src='/cs/HC92PRD/cache85515/PT_HEADER_HOME_1.svg' name='PT_HOME$IMG' class='ps-img'  alt='Home'/></a></span>
+</DIV><div      class='ps_box-group psc_layout ps_header_button ps_search-custom psc_hide-BP3' id='win0hdrdivPT_CUSTOM_SEARCH'></div><div     role="search"  class=' pts_gsearch_cont ps_header_button psc_hide-BP3' id='win0hdrdivPTS_GSEARCH_CONT'><DIV   aria-expanded="false" aria-controls="win0hdrdivPTS_GSEARCH_TRAY"  class='ps_box-button psc_image_only ps_header_button ps_header-gsearch' id='win0hdrdivPT_GSEARCH_BTN'><span  class='ps-button-wrapper' title='Global Search' ><a id='PT_GSEARCH_BTN'  class='ps-button'  onclick="javascript:cancelBubble(event);" href="javascript:toggleGBLSearchTray('PT_GSEARCH_BTN');"   role='button' role='button' role='button' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_GSEARCH_BTN');"><img src='/cs/HC92PRD/cache85515/PT_HEADER_SEARCH_1.svg' name='PT_GSEARCH_BTN$IMG' class='ps-img'  alt='Global Search'/></a></span>
+</DIV><div onkeydown="javascript:closeGBLSearchTray(event,'PT_GSEARCH_BTN');"    role="region" aria-label="Global Search Dialog"  class=' pts_gsearch_tray psc_closed' id='win0hdrdivPTS_GSEARCH_TRAY'><DIV    class='ps_box-dropdown psc_icon pts_gsearch_tray_item pts_gsearch_cat psc_label-hidereadable' id='win0hdrdivPTS_SRCHGROUPS_GLB'><DIV   class='ps_box-label' id='win0hdrdivPTS_SRCHGROUPS_GLBlbl'><label for='PTS_SRCHGROUPS_GLB' id='PTS_SRCHGROUPS_GLB_LBL' class='ps-label'>*Category</label></DIV><DIV   class='ps_box-control' id='win0hdrdivPTS_SRCHGROUPS_GLBctrl'><select id='PTS_SRCHGROUPS_GLB' class='ps-dropdown'    SCName1=PTUS_ALL size='1' onclick='javascript:cancelBubble(event);' onchange="addchg_win0(this);" onkeydown="if ((typeof isLoaderInProcess == 'function') && isLoaderInProcess() && ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } "  PSnchg='0' aria-required='true'>
+<option value="PTUS_ALL" selected='selected'>All</option>
+</select></DIV>
+</DIV><DIV    id='win0hdrdivPTS_KEYWORDS_GLB' class='ps_box-edit pts_gsearch_tray_item pts_gsearch_input psc_label-hidereadable'><DIV  id='win0hdrdivPTS_KEYWORDS_GLBlbl' class='ps_box-label'><label for='PTS_KEYWORDS_GLB' id='PTS_KEYWORDS_GLB_LBL' class='ps-label'>Keywords</label></DIV><DIV  id='win0hdrdivPTS_KEYWORDS_GLBctrl' class='ps_box-control'><input type='search' id='PTS_KEYWORDS_GLB' class='ps-edit' placeholder = 'Search'   onkeyup="javascript:doAppKeyEnter(event,'PTS_SRCH_BTN_GLB')"  value="" maxlength='30' onclick='javascript:cancelBubble(event);'  title="Keywords" PSnchg='0' />
+</DIV></DIV><DIV    class='ps_box-button psc_image_only pts_gsearch_tray_item pts_gsearch_go' id='win0hdrdivPTS_SRCH_BTN_GLB'><span  class='ps-button-wrapper' title='Search' ><a id='PTS_SRCH_BTN_GLB'  class='ps-button'  onkeydown="javascript:closeGBLSearchTray(event,'PT_GSEARCH_BTN');"   role='button' role='button' role='button'  href='javascript:ptSearchObj.DoGSearch();' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PTS_SRCH_BTN_GLB');"><img src='/cs/HC92PRD/cache85515/PT_NUI_EXECUTE_1.svg' name='PTS_SRCH_BTN_GLB$IMG' class='ps-img'  alt='Search'/></a></span>
+</DIV></div></div><div      class=' ps_header_button psc_header-all' id='win0hdrdiv$ICField54'><div      class='ps_box-group psc_has_popup ps_box-button  psc_menu-act  ps_header_button psc_header-all psc_image_only' id='win0hdrdivPT_ACTION_MENU'><span class='ps-button-wrapper' title="Actions List"><a class='ps-button' role='button' id='PT_ACTION_MENU$PIMG' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_ACTION_MENU');"><span class='ps-text'>Actions List</span><img class='ps-img' src='/cs/HC92PRD/cache85515/PT_HEADER_ACTIONS_1.svg' alt=''></a></span><div class='psc_hidden' options='sPopupParentId@PT_ACTION_MENU$PIMG;bPIA@1;bPopup@1;bMask@0;bClose@1;bHeader@1;bCache@1;sStyle@ps_popup-menu ps_menutype-act;sTitle@Actions List Popup;bAutoClose@1;bMask@1;sMaskStyle@ps_masktrans;bVertical@1;bHeader@0;' id='PT_ACTION_MENU$divpop'><div class='ps_content-group' id='win0hdrdivPT_ACTION_MENUgrp' onscroll='doScroll(this, false);'>
+<ul      class='ps_box-group ps_menucontainer' id='win0hdrdiv$ICField13'><li     role="presentation"  class=' ps_custom_action ps_menusection ' id='win0hdrdivPT_CUSTOM_ACTION'></li><li     role="presentation"  class='  ps_search_action ps_menusection ' id='win0hdrdivPT_SEARCH_ACTION'></li><li     role="presentation"  class=' ps_ag_action ps_menusection ' id='win0hdrdivPT_ACTGUIDE_ACTION'></li><li     role="presentation"  class='ps_box-group psc_layout ps_system_action ps_menusection' id='win0hdrdivPT_SYSTEM_ACTION'><ul     role="presentation"  class='ps_box-group psc_layout' id='win0hdrdivPT_SYSACT_CONT'><li     role="listitem"  class='ps_box-group psc_layout ps_header-previous ps_menuitem psc_hidden' id='win0hdrdivPT_SYSACT_PRVLST'></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-next ps_menuitem  psc_hidden' id='win0hdrdivPT_SYSACT_NXTLST'></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-retlist ps_menuitem psc_hidden' id='win0hdrdivPT_SYSACT_RETLST'></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-home ps_menuitem psc_show-BP2' id='win0hdrdivPT_SYSACT_HOME'><DIV    class='ps_box-link psc_toolaction-home' id='win0hdrdivPT_HOME_MENU'><span id='PT_HOME_MENU$span'  class='ps-link-wrapper'><a id='PT_HOME_MENU'  class='ps-link'   ptlinktgt='pt_replace' href="javascript:DoHome('https://portalsp.acs.ncsu.edu/psc/MP91PRD/EMPLOYEE/EMPL/s/WEBLIB_PTBR.ISCRIPT1.FieldFormula.IScript_StartPage')" onclick='javascript:cancelBubble(event);'  >Home</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-gsearch ps_menuitem psc_show-BP3' id='win0hdrdivPT_SYSACT_GBLSRCH'><DIV    class='ps_box-link' id='win0hdrdivPT_GSEARCH_MENU'><span id='PT_GSEARCH_MENU$span'  class='ps-link-wrapper'><a id='PT_GSEARCH_MENU'  class='ps-link'   href='javascript:ptSearchObj.DoSffGSearch("", "PY_EMPLOYEE_FL", "GBL", "PY_IC_PAY_INQ_FLU", "NCHCM", "");'  ptlinktgt='pt_peoplecode' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_GSEARCH_MENU');" >Search</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-addhp ps_menuitem' id='win0hdrdivPT_SYSACT_ADDHP'><DIV    class='ps_box-link' id='win0hdrdivPT_ADDHP_MENU'><span id='PT_ADDHP_MENU$span'  class='ps-link-wrapper'><a id='PT_ADDHP_MENU'  class='ps-link'   href="javascript:PTPinTo.SavePin('LP');"  ptlinktgt='pt_peoplecode' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_ADDHP_MENU');" >Add to Homepage...</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-addnb ps_menuitem' id='win0hdrdivPT_SYSACT_ADDNB'><DIV    class='ps_box-link' id='win0hdrdivPT_ADDNB_MENU'><span id='PT_ADDNB_MENU$span'  class='ps-link-wrapper'><a id='PT_ADDNB_MENU'  class='ps-link'   href="javascript:PTPinTo.SavePin('NB');"  ptlinktgt='pt_peoplecode' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_ADDNB_MENU');" >Add to NavBar</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-addfav ps_menuitem' id='win0hdrdivPT_SYSACT_ADDFAV'><DIV    class='ps_box-link' id='win0hdrdivPT_ADDFAV_MENU'><span id='PT_ADDFAV_MENU$span'  class='ps-link-wrapper'><a id='PT_ADDFAV_MENU'  class='ps-link'   href="javascript:PTPinTo.SavePin('FAV');"  ptlinktgt='pt_peoplecode' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_ADDFAV_MENU');" >Add to Favorites</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-navbar ps_menuitem psc_show-BP4' id='win0hdrdivPT_SYSACT_NAVBAR'><DIV    class='ps_box-link psc_toolaction-navbar' id='win0hdrdivPT_NAVBAR_MENU'><span id='PT_NAVBAR_MENU$span'  class='ps-link-wrapper'><a id='PT_NAVBAR_MENU'  class='ps-link'   onclick='javascript:cancelBubble(event);' href='javascript:DoNavBar("https://portalsp.acs.ncsu.edu/psc/MP91PRD_newwin/EMPLOYEE/EMPL/c/NUI_FRAMEWORK.PTNUI_NAVBAR.GBL");'  ptlinktgt='pt_replace' href="javascript:DoNavBar()" onclick='javascript:cancelBubble(event);'  >NavBar</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-mcfconsole ps_menuitem' id='win0hdrdivPT_SYSACT_MCF'></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-mypref ps_menuitem' id='win0hdrdivPT_SYSACT_MYPREF'><DIV    class='ps_box-link' id='win0hdrdivPT_MY_PREFERENCES'><span id='PT_MY_PREFERENCES$span'  class='ps-link-wrapper'><a id='PT_MY_PREFERENCES'  class='ps-link'   href="javascript:DoURLWarning('https://portalsp.acs.ncsu.edu/psc/MP91PRD/EMPLOYEE/EMPL/c/PTGP_MENU.PTGP_USERPREF_FL.GBL?CONTEXTIDPARAMS=HC920PRD---PY_IC_PAY_INQ_FLU')"  ptlinktgt='pt_peoplecode' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_MY_PREFERENCES');" >My Preferences</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-help ps_menuitem' id='win0hdrdivPT_SYSACT_HELP'><DIV    class='ps_box-link psc_toolaction-help' id='win0hdrdivPT_HELP_MENU'><span id='PT_HELP_MENU$span'  class='ps-link-wrapper'><a id='PT_HELP_MENU'  class='ps-link'   ptlinktgt='pt_replace' href="javascript:DoHelp('PeopleSoft Online Help')" onclick='javascript:cancelBubble(event);'  >Help</a></span>
+</DIV></li><li     role="listitem"  class='ps_box-group psc_layout ps_header-logout ps_menuitem' id='win0hdrdivPT_SYSACT_LOGOUT'><DIV    class='ps_box-link psc_toolaction-logout' id='win0hdrdivPT_LOGOUT_MENU'><span id='PT_LOGOUT_MENU$span'  class='ps-link-wrapper'><a id='PT_LOGOUT_MENU'  class='ps-link'   ptlinktgt='pt_replace' href="javascript:DoLogout('https://portalsp.acs.ncsu.edu/psp/MP91PRD/EMPLOYEE/EMPL/?cmd=logout')" onclick='javascript:cancelBubble(event);'  >Sign Out</a></span>
+</DIV></li></ul></li></ul></div></div></div></div><DIV    class='ps_box-button psc_image_only psc_toolaction-navbar ps_header_button hdrnbbtn ps_header-navbar psc_hide-BP4' id='win0hdrdivPT_NAVBAR'><span  class='ps-button-wrapper' title='NavBar' ><a id='PT_NAVBAR'  class='ps-button'  onclick='javascript:cancelBubble(event);' href='javascript:DoNavBar("https://portalsp.acs.ncsu.edu/psc/MP91PRD_newwin/EMPLOYEE/EMPL/c/NUI_FRAMEWORK.PTNUI_NAVBAR.GBL");'   role='button' role='button' role='button' href="javascript:DoNavBar()" onclick='javascript:cancelBubble(event);' ><img src='/cs/HC92PRD/cache85515/PT_HEADER_NAVBAR_1.svg' name='PT_NAVBAR$IMG' class='ps-img'  alt='NavBar'/></a></span>
+</DIV></div></div></div><div      class='ps_box-group psc_layout ps_header_confirmation' id='win0hdrdivPT_CONFIRM_CONT'><div     role="alert" aria-live="assertive"  class='ps_box-group psc_layout psc_confirmation-animate ' id='win0hdrdivPT_CONFIRMATION'><div      class='ps_box-group psc_layout psc_confirmation-area' id='win0hdrdivPT_CONFIRM_AREA'><DIV    class='ps_box-longedit psc_disabled psc_wrappable psc_has_value psc_confirmation-msg' id='win0hdrdivPT_CONFIRM_MSG'><DIV   class='ps_box-label' id='win0hdrdivPT_CONFIRM_MSGlbl'><span  class='ps-label'>&nbsp;</span></DIV><span class='ps_box-value'    aria-disabled='true'id='PT_CONFIRM_MSG'>&nbsp;</span>
+</DIV><DIV    class='ps_box-button psc_image_only psc_modal-close psc_confirmation-close' id='win0hdrdivPT_CONFIRM_CLOSE'><span  class='ps-button-wrapper' title='Close' ><a id='PT_CONFIRM_CLOSE'  class='ps-button'   role='button' role='button' role='button' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PT_CONFIRM_CLOSE');"><img src='/cs/HC92PRD/cache85515/PT_MODAL_CLOSE_NUI_1.svg' name='PT_CONFIRM_CLOSE$IMG' class='ps-img'  alt='Close'/></a></span>
+</DIV></div></div></div><div      class='ps_box-group psc_layout ps_ag-processheader' id='win0hdrdivPT_AG_LAYOUT_PT_AG_GROUPBOX3'></div><div      class=' ps_header_bar_custom' id='win0hdrdivPT_CUSTOM_BOTTOM'></div></div></DIV></DIV>
+
+</DIV>
+<DIV class='ps_search psc_close' id='PT_SEARCH' ></DIV>
+<DIV class='ps_box-pagetabs psc_hidden' id='win0divPSPANELTABS'></DIV>
+
+<DIV class='ps_mid_section' id='PT_MID_SECTION'>
+<DIV class='pst_panel-side1' id='PT_SIDE' ><DIV class='pst_panel-side1-top' id='PT_SIDE_TOP' ></DIV><DIV class='pst_panel-side1-bottom' id='PT_SIDE_BOTTOM' ></DIV></DIV>
+
+<DIV class='ps_content' id='PT_CONTENT' role='main'>
+<DIV class='ps_main' id='PT_MAIN'><DIV class='ps_pagecontainer' id='win0divPAGECONTAINER'>
+<DIV class='ps_pspagecontainer' id='win0divPSPAGECONTAINER'>
+<div      class='ps_box-group psc_layout ps_apps_content psc_padding-leftnone' id='win0divDERIVED_PY_FLU_'><DIV    class='ps_box-edit psc_disabled psc_has_value  psc_title-page psc_label-none psc_margin-bottomnone pna_len_panel' id='win0divPY_IC_WRK_PAGE_TITLE'><DIV   class='ps_box-label' id='win0divPY_IC_WRK_PAGE_TITLElbl'><span  class='ps-label'>&nbsp;</span></DIV><span class='ps_box-value'    aria-disabled='true'role='heading' aria-level='1' id='PY_IC_WRK_PAGE_TITLE'>Paychecks</span>
+</DIV><div      class='ps_box-group' id='win0divNC_PAY_MSG_TBL_'><h2 class='ps_header-group'><span class='ps-text' id='NC_PAY_MSG_TBL_lbl'>Pay Check View</span></h2>
+<div class='ps_content-group' id='win0divNC_PAY_MSG_TBL_grp'>
+<DIV    class='ps_box-htmlarea' id='win0divNC_PAY_MSG_TBL_DESCRLONG'><div class='ps-htmlarea'  >
+<!-- Begin HTML Area Name Undisclosed -->
+<p><span style="color:#ff0000;"><strong>YOUR POP-UP BLOCKER MUST BE TURNED OFF!</strong></span></p><p>You need Adobe reader to view &amp; print your Paycheck.</p><p>Direct deposits are effective on the check date.&nbsp; For more info on deposits into multiple accts, <a href="http://go.ncsu.edu/pr-direct-deposit-information" target="_blank">please click here</a>.<br />Federal rule: notify Payroll @ (919) 515-4355 if you forward 100% of your pay into a bank in another country.</p>
+<!-- End HTML Area -->
+</div>
+</DIV></div></div><div      class='ps_box-group psc_layout ps_apps_content pna_len_panel' id='win0divPY_IC_PI_LST_VW_'><div      class='ps_box-group psc_layout' id='win0divDERIVED_PY_FLU_$28$'><DIV    class='ps_box-grid-flex psc_grid-rowborderbottom psc_grid-border psc_show-actionable psc_grid-rowborderbottom psc_grid-border psc_show-actionable psc_grid-notitle' id='win0divPY_IC_PI_LST_VW$0'><DIV    class='ps_box-grid-header' id='win0divPY_IC_PI_LST_VWhdr$0'><div class='ps_box-grid-title'><h2 class='ps_grid-title'><span class='ps-text'>Paychecks</span></h2>
+</div><div class='ps_box-grid-header_bar psc_has_systemop'><div class='ps_header-grid-custom'><DIV    class='ps_box-button psc_image_only' id='win0divDERIVED_PY_FLU_FILTER_PB'><span  class='ps-button-wrapper' title='Filter' ><a id='DERIVED_PY_FLU_FILTER_PB'  class='ps-button'   role='button' role='button' role='button' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'DERIVED_PY_FLU_FILTER_PB');"><img src='/cs/HC92PRD/cache85515/PS_GRID_FILTER_S_FL_1.svg' name='DERIVED_PY_FLU_FILTER_PB$IMG' class='ps-img'  alt='Filter'/></a></span>
+</DIV></div><div class='ps_header-grid-system'><DIV    class='ps_box-button ps_box-sort psc_image_only' id='win0divPY_IC_PI_LST_VW$SORT$0'><span class='ps-button-wrapper' title="Sort Paychecks"><a id='PY_IC_PI_LST_VW$SORT$0' class='ps-button' role='button' aria-pressed='false'onfocus='doFocus_win0(this,false,true);' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PY_IC_PI_LST_VW$SORT$0');"><img src='/cs/HC92PRD/cache85515/PT_GRID_SORT_1.svg' id='PY_IC_PI_LST_VW$SORT$IMG$0' class='ps-img' alt='Sort Paychecks'></a></span><DIV options='sPopupParentId@PY_IC_PI_LST_VW$SORT$IMG$0;bPIA@1;bPopup@1;bMask@0;bClose@1;sBackTitle@Close;bAutoClose@1;bMask@1;sMaskStyle@ps_masktrans;bAutoCloseWarn@0;bHeader@1;bBack@1;bCache@1;sTitle@Sort;'   class='ps_box-menu psc_hidden' id='win0divPY_IC_PI_LST_VW$SORT$divpop$0'><div class='ps_grid-head psc_sort' id='PY_IC_PI_LST_VW$SORTLIST$0'><ul class='ps_grid-head-row'>
+<li class='ps_grid-col PAY_END_DT_ALT psc_date psc_sort-enabled'><div class='ps_box_grid-col'><a onclick='gKeyDownTarget = this; javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PY_IC_PI_LST_VW$srt3$0');" title='Click to sort'   class='ps_grid-col-label psc_link' id='win0divPAY_END_DT_ALTlblhdr$0'>Check Date</a></div></li><li class='ps_grid-col DESCR psc_sort-enabled'><div class='ps_box_grid-col'><a onclick='gKeyDownTarget = this; javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PY_IC_PI_LST_VW$srt7$0');" title='Click to sort'   class='ps_grid-col-label psc_link' id='win0divDESCRlblhdr$0'>Company</a></div></li><li class='ps_grid-col PAY_BEGIN_DT psc_date psc_sort-enabled'><div class='ps_box_grid-col'><a onclick='gKeyDownTarget = this; javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PY_IC_PI_LST_VW$srt9$0');" title='Click to sort'   class='ps_grid-col-label psc_link' id='win0divPAY_BEGIN_DTlblhdr$0'>Pay Begin Date</a></div></li><li class='ps_grid-col PAY_END_DT psc_date psc_sort-enabled'><div class='ps_box_grid-col'><a onclick='gKeyDownTarget = this; javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PY_IC_PI_LST_VW$srt10$0');" title='Click to sort'   class='ps_grid-col-label psc_link' id='win0divPAY_END_DTlblhdr$0'>Pay End Date</a></div></li><li class='ps_grid-col VIEW_PAY psc_trigger psc_sort-enabled'><div class='ps_box_grid-col'><a onclick='gKeyDownTarget = this; javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PY_IC_PI_LST_VW$srt12$0');" title='Click to sort'   class='ps_grid-col-label psc_link' id='win0divVIEW_PAYlblhdr$0'>Net Pay</a></div></li><li class='ps_grid-col PAYCHECK_NBR psc_num psc_sort-enabled'><div class='ps_box_grid-col'><a onclick='gKeyDownTarget = this; javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PY_IC_PI_LST_VW$srt16$0');" title='Click to sort'   class='ps_grid-col-label psc_link' id='win0divPAYCHECK_NBRlblhdr$0'>Paycheck Number</a></div></li></ul></div>
+</DIV></DIV></div><div class='ps_header-grid-end'></div></div></DIV><DIV    class='ps_box-gridc' id='win0divPY_IC_PI_LST_VWgridc$0'><DIV    class='ps_box-gridc-right' id='win0divPY_IC_PI_LST_VWgridc-right$0'><DIV    class='ps_box-grid ps_box-grid-head' id='win0divPY_IC_PI_LST_VW$colhdr$0'><table class='ps_grid-flex-head' title="Paychecks"><thead class='ps_grid-head'><tr class='ps_grid-head-row'>
+<th scope='col' class='ps_grid-col GROUPBOX5'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX5lblhdro$0'>Check Date</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX6'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX6lblhdro$0'>Company</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX7'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX7lblhdro$0'>Pay Begin Date / Pay End Date</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX8'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX8lblhdro$0'>Net Pay</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX9'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX9lblhdro$0'>Paycheck Number</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOXlblhdro$0'></DIV></div></th>
+<th class='psc_hidden ps_grid-col psc_gridvbar'></th>
+</tr></thead>
+</table>
+</DIV><DIV  onscroll='cancelBubble(event);doScroll(this, false);'   class='ps_box-grid' id='win0divPY_IC_PI_LST_VW$grid$0'><table class='ps_grid-flex'><thead class='ps_grid-head'><tr class='ps_grid-head-row psc_invisible' aria-hidden='true'>
+<th scope='col' class='ps_grid-col GROUPBOX5'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX5lblhdr$0'>Check Date</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX6'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX6lblhdr$0'>Company</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX7'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX7lblhdr$0'>Pay Begin Date / Pay End Date</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX8'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX8lblhdr$0'>Net Pay</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX9'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOX9lblhdr$0'>Paycheck Number</DIV></div></th>
+<th scope='col' class='ps_grid-col GROUPBOX'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0divGROUPBOXlblhdr$0'></DIV></div></th>
+</tr></thead>
+<tbody class='ps_grid-body'><tr class='ps_grid-row psc_rowact' id='PY_IC_PI_LST_VW$0_row_0' tabindex='0'  role='button' onclick="javascript:OnRowAction(this,'VIEW_PAY$0');cancelBubble(event);"  >
+</div></td>
+<td class='ps_grid-cell GROUPBOX5'>
+<div  id='win0divGROUPBOX5$0' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date  psc_padding-top1em' id='win0divPAY_END_DT_ALT$0'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT_ALT$0'>2017/08/11</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX6'>
+<div  id='win0divGROUPBOX6$0' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_margin-none' id='win0divDESCR$0'><span class='ps_box-value'    aria-disabled='true'id='DESCR$0'>NC State University</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX7'>
+<div  id='win0divGROUPBOX7$0' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_BEGIN_DT$0'><span class='ps_box-value'    aria-disabled='true'id='PAY_BEGIN_DT$0'>2017/07/15</span>
+</DIV><DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_END_DT$0'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT$0'>2017/07/28</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX8'>
+<div  id='win0divGROUPBOX8$0' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-link psc_trigger psc_trigger' id='win0divVIEW_PAY$0'><span id='VIEW_PAY$span$0'  class='ps-link-wrapper' title='View Paycheck' ><a id='VIEW_PAY$0'  class='ps-link'   ptlinktgt='pt_peoplecode' tabindex='-1' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'VIEW_PAY$0');" >      $449.12</a></span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX9'>
+<div  id='win0divGROUPBOX9$0' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num psc_margin-none' id='win0divPAYCHECK_NBR$0'><span class='ps_box-value'    aria-disabled='true'id='PAYCHECK_NBR$0'>3805113</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX'>
+<div  id='win0divGROUPBOX$0' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_more' id='win0divMORE_PB$0'><span class='ps_box-value'    aria-disabled='true'id='MORE_PB$0'>&nbsp;</span>
+</DIV></div></td>
+</tr>
+<tr class='ps_grid-row psc_rowact' id='PY_IC_PI_LST_VW$0_row_1' tabindex='0'  role='button' onclick="javascript:OnRowAction(this,'VIEW_PAY$1');cancelBubble(event);"  >
+</div></td>
+<td class='ps_grid-cell GROUPBOX5'>
+<div  id='win0divGROUPBOX5$1' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date  psc_padding-top1em' id='win0divPAY_END_DT_ALT$1'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT_ALT$1'>2017/07/28</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX6'>
+<div  id='win0divGROUPBOX6$1' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_margin-none' id='win0divDESCR$1'><span class='ps_box-value'    aria-disabled='true'id='DESCR$1'>NC State University</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX7'>
+<div  id='win0divGROUPBOX7$1' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_BEGIN_DT$1'><span class='ps_box-value'    aria-disabled='true'id='PAY_BEGIN_DT$1'>2017/07/01</span>
+</DIV><DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_END_DT$1'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT$1'>2017/07/14</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX8'>
+<div  id='win0divGROUPBOX8$1' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-link psc_trigger psc_trigger' id='win0divVIEW_PAY$1'><span id='VIEW_PAY$span$1'  class='ps-link-wrapper' title='View Paycheck' ><a id='VIEW_PAY$1'  class='ps-link'   ptlinktgt='pt_peoplecode' tabindex='-1' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'VIEW_PAY$1');" >      $449.12</a></span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX9'>
+<div  id='win0divGROUPBOX9$1' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num psc_margin-none' id='win0divPAYCHECK_NBR$1'><span class='ps_box-value'    aria-disabled='true'id='PAYCHECK_NBR$1'>3790544</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX'>
+<div  id='win0divGROUPBOX$1' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_more' id='win0divMORE_PB$1'><span class='ps_box-value'    aria-disabled='true'id='MORE_PB$1'>&nbsp;</span>
+</DIV></div></td>
+</tr>
+<tr class='ps_grid-row psc_rowact' id='PY_IC_PI_LST_VW$0_row_2' tabindex='0'  role='button' onclick="javascript:OnRowAction(this,'VIEW_PAY$2');cancelBubble(event);"  >
+</div></td>
+<td class='ps_grid-cell GROUPBOX5'>
+<div  id='win0divGROUPBOX5$2' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date  psc_padding-top1em' id='win0divPAY_END_DT_ALT$2'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT_ALT$2'>2017/07/14</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX6'>
+<div  id='win0divGROUPBOX6$2' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_margin-none' id='win0divDESCR$2'><span class='ps_box-value'    aria-disabled='true'id='DESCR$2'>NC State University</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX7'>
+<div  id='win0divGROUPBOX7$2' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_BEGIN_DT$2'><span class='ps_box-value'    aria-disabled='true'id='PAY_BEGIN_DT$2'>2017/06/17</span>
+</DIV><DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_END_DT$2'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT$2'>2017/06/30</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX8'>
+<div  id='win0divGROUPBOX8$2' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-link psc_trigger psc_trigger' id='win0divVIEW_PAY$2'><span id='VIEW_PAY$span$2'  class='ps-link-wrapper' title='View Paycheck' ><a id='VIEW_PAY$2'  class='ps-link'   ptlinktgt='pt_peoplecode' tabindex='-1' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'VIEW_PAY$2');" >      $412.35</a></span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX9'>
+<div  id='win0divGROUPBOX9$2' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num psc_margin-none' id='win0divPAYCHECK_NBR$2'><span class='ps_box-value'    aria-disabled='true'id='PAYCHECK_NBR$2'>3785141</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX'>
+<div  id='win0divGROUPBOX$2' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_more' id='win0divMORE_PB$2'><span class='ps_box-value'    aria-disabled='true'id='MORE_PB$2'>&nbsp;</span>
+</DIV></div></td>
+</tr>
+<tr class='ps_grid-row psc_rowact' id='PY_IC_PI_LST_VW$0_row_3' tabindex='0'  role='button' onclick="javascript:OnRowAction(this,'VIEW_PAY$3');cancelBubble(event);"  >
+</div></td>
+<td class='ps_grid-cell GROUPBOX5'>
+<div  id='win0divGROUPBOX5$3' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date  psc_padding-top1em' id='win0divPAY_END_DT_ALT$3'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT_ALT$3'>2017/06/30</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX6'>
+<div  id='win0divGROUPBOX6$3' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_margin-none' id='win0divDESCR$3'><span class='ps_box-value'    aria-disabled='true'id='DESCR$3'>NC State University</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX7'>
+<div  id='win0divGROUPBOX7$3' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_BEGIN_DT$3'><span class='ps_box-value'    aria-disabled='true'id='PAY_BEGIN_DT$3'>2017/06/03</span>
+</DIV><DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_END_DT$3'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT$3'>2017/06/16</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX8'>
+<div  id='win0divGROUPBOX8$3' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-link psc_trigger psc_trigger' id='win0divVIEW_PAY$3'><span id='VIEW_PAY$span$3'  class='ps-link-wrapper' title='View Paycheck' ><a id='VIEW_PAY$3'  class='ps-link'   ptlinktgt='pt_peoplecode' tabindex='-1' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'VIEW_PAY$3');" >      $412.34</a></span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX9'>
+<div  id='win0divGROUPBOX9$3' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num psc_margin-none' id='win0divPAYCHECK_NBR$3'><span class='ps_box-value'    aria-disabled='true'id='PAYCHECK_NBR$3'>3779887</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX'>
+<div  id='win0divGROUPBOX$3' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_more' id='win0divMORE_PB$3'><span class='ps_box-value'    aria-disabled='true'id='MORE_PB$3'>&nbsp;</span>
+</DIV></div></td>
+</tr>
+<tr class='ps_grid-row psc_rowact' id='PY_IC_PI_LST_VW$0_row_4' tabindex='0'  role='button' onclick="javascript:OnRowAction(this,'VIEW_PAY$4');cancelBubble(event);"  >
+</div></td>
+<td class='ps_grid-cell GROUPBOX5'>
+<div  id='win0divGROUPBOX5$4' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date  psc_padding-top1em' id='win0divPAY_END_DT_ALT$4'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT_ALT$4'>2017/06/16</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX6'>
+<div  id='win0divGROUPBOX6$4' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_margin-none' id='win0divDESCR$4'><span class='ps_box-value'    aria-disabled='true'id='DESCR$4'>NC State University</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX7'>
+<div  id='win0divGROUPBOX7$4' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_BEGIN_DT$4'><span class='ps_box-value'    aria-disabled='true'id='PAY_BEGIN_DT$4'>2017/05/20</span>
+</DIV><DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_END_DT$4'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT$4'>2017/06/02</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX8'>
+<div  id='win0divGROUPBOX8$4' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-link psc_trigger psc_trigger' id='win0divVIEW_PAY$4'><span id='VIEW_PAY$span$4'  class='ps-link-wrapper' title='View Paycheck' ><a id='VIEW_PAY$4'  class='ps-link'   ptlinktgt='pt_peoplecode' tabindex='-1' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'VIEW_PAY$4');" >      $412.34</a></span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX9'>
+<div  id='win0divGROUPBOX9$4' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num psc_margin-none' id='win0divPAYCHECK_NBR$4'><span class='ps_box-value'    aria-disabled='true'id='PAYCHECK_NBR$4'>3765349</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX'>
+<div  id='win0divGROUPBOX$4' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_more' id='win0divMORE_PB$4'><span class='ps_box-value'    aria-disabled='true'id='MORE_PB$4'>&nbsp;</span>
+</DIV></div></td>
+</tr>
+<tr class='ps_grid-row psc_rowact' id='PY_IC_PI_LST_VW$0_row_5' tabindex='0'  role='button' onclick="javascript:OnRowAction(this,'VIEW_PAY$5');cancelBubble(event);"  >
+</div></td>
+<td class='ps_grid-cell GROUPBOX5'>
+<div  id='win0divGROUPBOX5$5' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date  psc_padding-top1em' id='win0divPAY_END_DT_ALT$5'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT_ALT$5'>2017/06/02</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX6'>
+<div  id='win0divGROUPBOX6$5' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_margin-none' id='win0divDESCR$5'><span class='ps_box-value'    aria-disabled='true'id='DESCR$5'>NC State University</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX7'>
+<div  id='win0divGROUPBOX7$5' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_BEGIN_DT$5'><span class='ps_box-value'    aria-disabled='true'id='PAY_BEGIN_DT$5'>2017/05/06</span>
+</DIV><DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_END_DT$5'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT$5'>2017/05/19</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX8'>
+<div  id='win0divGROUPBOX8$5' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-link psc_trigger psc_trigger' id='win0divVIEW_PAY$5'><span id='VIEW_PAY$span$5'  class='ps-link-wrapper' title='View Paycheck' ><a id='VIEW_PAY$5'  class='ps-link'   ptlinktgt='pt_peoplecode' tabindex='-1' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'VIEW_PAY$5');" >      $684.41</a></span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX9'>
+<div  id='win0divGROUPBOX9$5' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num psc_margin-none' id='win0divPAYCHECK_NBR$5'><span class='ps_box-value'    aria-disabled='true'id='PAYCHECK_NBR$5'>3758026</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX'>
+<div  id='win0divGROUPBOX$5' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_more' id='win0divMORE_PB$5'><span class='ps_box-value'    aria-disabled='true'id='MORE_PB$5'>&nbsp;</span>
+</DIV></div></td>
+</tr>
+<tr class='ps_grid-row psc_rowact' id='PY_IC_PI_LST_VW$0_row_6' tabindex='0'  role='button' onclick="javascript:OnRowAction(this,'VIEW_PAY$6');cancelBubble(event);"  >
+</div></td>
+<td class='ps_grid-cell GROUPBOX5'>
+<div  id='win0divGROUPBOX5$6' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date  psc_padding-top1em' id='win0divPAY_END_DT_ALT$6'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT_ALT$6'>2017/05/19</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX6'>
+<div  id='win0divGROUPBOX6$6' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_margin-none' id='win0divDESCR$6'><span class='ps_box-value'    aria-disabled='true'id='DESCR$6'>NC State University</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX7'>
+<div  id='win0divGROUPBOX7$6' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_BEGIN_DT$6'><span class='ps_box-value'    aria-disabled='true'id='PAY_BEGIN_DT$6'>2017/04/22</span>
+</DIV><DIV    class='ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value psc_date psc_margin-none' id='win0divPAY_END_DT$6'><span class='ps_box-value'    aria-disabled='true'id='PAY_END_DT$6'>2017/05/05</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX8'>
+<div  id='win0divGROUPBOX8$6' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-link psc_trigger psc_trigger' id='win0divVIEW_PAY$6'><span id='VIEW_PAY$span$6'  class='ps-link-wrapper' title='View Paycheck' ><a id='VIEW_PAY$6'  class='ps-link'   ptlinktgt='pt_peoplecode' tabindex='-1' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'VIEW_PAY$6');" >      $836.88</a></span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX9'>
+<div  id='win0divGROUPBOX9$6' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num psc_margin-none' id='win0divPAYCHECK_NBR$6'><span class='ps_box-value'    aria-disabled='true'id='PAYCHECK_NBR$6'>3739874</span>
+</DIV></div></td>
+<td class='ps_grid-cell GROUPBOX'>
+<div  id='win0divGROUPBOX$6' class='ps_box-group psc_layout'   >
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_more' id='win0divMORE_PB$6'><span class='ps_box-value'    aria-disabled='true'id='MORE_PB$6'>&nbsp;</span>
+</DIV></div></td>
+</tr>
+</tbody></table>
+</DIV></DIV></DIV></DIV></div></div></div></DIV></DIV>
+</DIV>
+
+</DIV >
+<DIV class='pst_panel-side2' id='PT_SIDE2' ><DIV class='ps_pspagecontainer_side2' id='win0divPSPAGECONTAINER_SIDE2'>
+<div     aria-expanded='false'  class='pst_panel-control  psc_page-container' id='win0side2divPT_WORK_PT_SIDE2PAGE_BTN'><div class='pst_panel-tabcontainer' id='win0side2divPT_WORK_PT_SIDE2PAGE_BTN$tab'><div class='ps_box-button pst_panel-button psc_image_only'><span class='ps-button-wrapper' title="Supplementary Panel"><a class='ps-button' role='button' id='PT_WORK_PT_SIDE2PAGE_BTN$PIMG' onclick='javascript:cancelBubble(event);' href="javascript:toggleSideTab('PT_WORK_PT_SIDE2PAGE_BTN$PIMG',2);"><span class='ps-text'>Supplementary Panel</span><img class='ps-img' src='/cs/HC92PRD/cache85515/PT_RC_PANELBUTTON_ICON_1.svg' alt=''></a></span></div></div><div class='pst_panel-content psc_close' id='win0side2divPT_WORK_PT_SIDE2PAGE_BTN$content'>
+<div      class='ps_box-group psc_layout psc_page-container' id='win0side2divPTLAYOUT_SIDE_GROUPBOX6'><div      class='ps_box-group psc_layout' id='win0side2divPTLAYOUT_SIDE_GROUPBOX1'><div      class='ps_box-group psc_layout ps_collection ps_button_bar psc_distribute psc_grouped_fitted psc_rf-selector' id='win0side2divPTLAYOUT_SIDE_GROUPBOX5'><DIV    class='ps_box-radio' id='win0side2divPT_RCSEL_RC'><DIV   class='ps_box-label' id='win0side2divPT_RCSEL_RClbl'><label for='PT_RCSEL_RC' id='PT_RCSEL_RC_LBL' class='ps-label' title='Related Information'>Related Information</label></DIV><DIV   class='ps_box-control' id='win0side2divPT_RCSEL_RCctrl'><input type='radio' name='PT_RCSEL_RC' id='PT_RCSEL_RC' class='ps-radio'   onfocus='this.parentElement.parentElement.classList.add("psc_focus"); doFocus_win0(this,false,true);' onblur='this.parentElement.parentElement.classList.remove("psc_focus");' value="R" onclick="setupTimeout2();addchg_win0(this);submitAction_win0(this.form,this.id);"  PSnchg='0' /></DIV>
+</DIV><DIV    class='ps_box-radio psc_selected ' id='win0side2divPT_RCSEL_ANALYTICS'><DIV   class='ps_box-label' id='win0side2divPT_RCSEL_ANALYTICSlbl'><label for='PT_RCSEL_ANALYTICS' id='PT_RCSEL_ANALYTICS_LBL' class='ps-label' title='My Analytics'>My Analytics</label></DIV><DIV   class='ps_box-control' id='win0side2divPT_RCSEL_ANALYTICSctrl'><input type='radio' name='PT_RCSEL_RC' id='PT_RCSEL_ANALYTICS' class='ps-radio'   aria-selected='true' onfocus='this.parentElement.parentElement.classList.add("psc_focus"); doFocus_win0(this,false,true);' onblur='this.parentElement.parentElement.classList.remove("psc_focus");' value="A" checked='checked' onclick="setupTimeout2();addchg_win0(this);submitAction_win0(this.form,this.id);"  PSnchg='0' /></DIV>
+</DIV></div></div><div      class='ps_box-group ps_panel_content psc_padding-05em psc_padding-topnone' id='win0side2divPTLAYOUT_SIDE_GROUPBOX2'><div      class='ps_box-group' id='win0side2divPT_SIDE2_ANALITICS'><div      class='ps_box-group psc_layout' id='win0side2div$ICField1'><div      class='ps_box-group psc_layout' id='win0side2div$ICField18'></div><div      class='ps_box-group psc_layout' id='win0side2div$ICField19'><DIV    class='ps_box-grid-flex ptpg_reportlist ' id='win0side2divPTPG_PUBPG_DVW$0'><DIV    class='ps_box-grid-header' id='win0side2divPTPG_PUBPG_DVWhdr$0'><div class='ps_box-grid-title'><h2 class='ps_grid-title'><span class='ps-text'>My Analytics</span></h2>
+</div><div class='ps_box-grid-header_bar'><div class='ps_header-grid-custom'></div></div></DIV><DIV    class='ps_box-gridc' id='win0side2divPTPG_PUBPG_DVWgridc$0'><DIV    class='ps_box-gridc-right' id='win0side2divPTPG_PUBPG_DVWgridc-right$0'><DIV    class='ps_box-grid' id='win0side2divPTPG_PUBPG_DVW$grid$0'><table class='ps_grid-flex'><thead class='ps_grid-head'><tr class='ps_grid-head-row'>
+<th scope='col' class='ps_grid-col PTPGREPORTNAME'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0side2divPTPGREPORTNAMElblhdr$0'>No analytics available</DIV></div></th><th scope='col' class='ps_grid-col'><div class='ps_box_grid-col'><DIV    class='ps_grid-col-label' id='win0side2divPTPG_PUBPG_DVW_PTPG_SRCCOMPlblhdr$0'>Created From</DIV></div></th></tr></thead>
+<tbody class='ps_grid-body'><tr class='ps_grid-row' id='PTPG_PUBPG_DVW$0_row_0' >
+<td class='ps_grid-cell PTPGREPORTNAME'>
+<DIV    class='ps_box-link psc_disabled' id='win0side2divPTPGREPORTNAME$0'><span id='PTPGREPORTNAME$span$0'  class='ps-link-wrapper' title='Description' ><a id='PTPGREPORTNAME$0' disabled='disabled'  class='ps-link'   aria-disabled='true' ptlinktgt='pt_peoplecode' >No analytics available</a></span>
+</DIV></td>
+<td class='ps_grid-cell'>
+<DIV    class='ps_box-edit psc_disabled psc_label-suppressed psc_has_value' id='win0side2divPTPG_PUBPG_DVW_PTPG_SRCCOMP$0'><span class='ps_box-value'    aria-disabled='true'id='PTPG_PUBPG_DVW_PTPG_SRCCOMP$0'>&nbsp;</span>
+</DIV></td>
+</tr>
+</tbody></table>
+</DIV></DIV></DIV></DIV></div></div></div><div      class='ps_box-group' id='win0side2divPT_SIDE2_RC'><h3 class='ps_header-group'><span class='ps-text' id='PT_SIDE2_RClbl'>Related Information</span></h3>
+<div class='ps_content-group' id='win0side2divPT_SIDE2_RCgrp'>
+<div      class='ps_box-group psc_layout' id='win0side2divPTLAYOUT_SIDE_GROUPBOX7'><DIV    class='ps_box-button psc_image_only psc_transparent' id='win0side2divPTCS_RCPERS_WRK_PTCS_CMPLVL_PERS'><span  class='ps-button-wrapper' title='Personalize RC' ><a id='PTCS_RCPERS_WRK_PTCS_CMPLVL_PERS'  class='ps-button'   role='button' role='button' role='button' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PTCS_RCPERS_WRK_PTCS_CMPLVL_PERS');"><img src='/cs/HC92PRD/cache85515/PTPG_NUI_OPTIONS_1.svg' name='PTCS_RCPERS_WRK_PTCS_CMPLVL_PERS$IMG' class='ps-img'  alt='Personalize RC'/></a></span>
+</DIV></div><div      class='ps_box-group' id='win0side2div$ICField11'><div      class='ps_box-group psc_layout' id='win0side2div$ICField$2$'><div    class='ps_box-scrollarea' id='win0side2div$ICField2$0'><div    class='ps_box-scrollarea-row' id='win0side2div$ICField2_row$0'><div      class='ps_box-group psc_collapsible pst_rc-general' id='win0side2divPTCS_FLRTFR_DVW_PTCS_GROUPLET$0'><DIV    class='ps_box-button psc_image_only psc_hidden' id='win0side2divPTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$0'><span  class='ps-button-wrapper' title='Grouplet' ><a id='PTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$0'  class='ps-button'   role='button' role='button' role='button' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'PTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$0');"><img src='/cs/HC92PRD/cache85515/PT_MODAL_CNTRL_1.gif' name='PTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$IMG$0' class='ps-img' /></a></span>
+</DIV></div></div></div></div></div></div></div></div></div></div></div></DIV></DIV>
+
+</DIV><DIV class='ps_footer' id='PT_FOOTER' ></DIV>
+<div id='DetachDiv' height=0 width=0 frameborder=0></div>
+</DIV>
+<a  class='ps-anchor' id='ICLastAnchor_win0'></a>
+</form>
+<div id='popupDragFrame' class='popupDragFrame'>&nbsp;</div>
+<!-- Mouse-over popup Begin -->
+<table id='win0MOpopupContainer' width='20' border='0' cellpadding='0' cellspacing='0' style='display:none; position:absolute; top:0; left:0;' onMouseOver="MOpopupObj_win0.StartPopup('win0MOpopupContainer', '');" onMouseOut="MOpopupObj_win0.StopPopup();"><tr>
+<td id='win0MOpopupInner' height='25' width='20' align='left' valign='top' class='MOBGImage'>
+<div id='win0MOdivpopupFrame' tabindex='-1' onclick='MOpopupObj_win0.SetFocusFlag(false);' style='overflow:auto; width:20px; height: 60px; padding:8px; box-shadow:0 0 5px #000000; background-color:white; border: 1px solid #666666;'>test</div></td>
+</tr>
+</table>
+<!-- Mouse-over popup End  -->
+</body>
+<script language='JavaScript'>
+var bMDTargetStart=false;
+var bMDTarget=false;
+setPSTouchHandlerDoc();var nMaxSavedStates=5;
+bSearchDialog_empty =false;
+var sHistURL="https://hc92prd.acs.ncsu.edu/psc/HC92PRD/EMPLOYEE/NCHCM/c/PY_EMPLOYEE_FL.PY_IC_PAY_INQ_FLU.GBL?page=PY_IC_PI_LIST_FLU&";
+var bICList = false;
+var bCloseModal = false;
+var bHtml5Doc = true;
+var bClearBackState=false;
+var bPageTransfered=false;
+var bTransferAnimate=false;
+var bCleanHtml = false;
+var bDefer = true;
+document.deferFldArr_win0 = new Array();
+document.hiddenFldArr_win0 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICModelCancel','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICDNDSrc','ICPanelHelpUrl','ICPanelName','ICPanelControlStyle','ICFind','ICAddCount','ICAPPCLSDATA');
+document.chgFldArr_win0 = new Array();
+AddToHistory('Pay', '', 'returntolastpage@0', 'PY_IC_PI_LIST_FLU', 13, 0, 0, 0,'',0, '', 0);
+var bCleanHtml = true;
+var bDefer = true;
+document.hiddenFldArr_win0 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICModelCancel','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICDNDSrc','ICPanelHelpUrl','ICPanelName','ICPanelControlStyle','ICFind','ICAddCount','ICAPPCLSDATA');
+document.chgFldArr_win0 = new Array();
+var bCDATA = false;
+var bAccessibleLayout = false;
+var bLoadCompleted = true;
+</script></html>
